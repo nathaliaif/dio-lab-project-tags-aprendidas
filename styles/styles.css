@@ -7,6 +7,10 @@
   word-spacing: -2px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 2rem;
 }
@@ -105,6 +109,17 @@ main {
     row-gap: 0.7rem;
     padding: 1rem 0;
     list-style: none;
+  }
+}
+
+footer {
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    color: #778da9;
   }
 }
 
